@@ -2,7 +2,7 @@
 /**
  * @category    Main Example - Custom Payment Box ((json, bootstrap4, mobile friendly, white label product, your own logo)        
  * @package     GoUrl Cryptocurrency Payment API
- * copyright 	(c) 2014-2023 Delta Consultants
+ * copyright 	(c) 2014-2024 Delta Consultants
  * @desc     	GoUrl Crypto Payment Box Example (json, bootstrap4, mobile friendly, optional - free White Label Product - Bitcoin/altcoin Payments with your own logo and all payment requests through your server, open source)
  * @crypto      Supported Cryptocoins -	Bitcoin, BitcoinCash, BitcoinSV, Litecoin, Dash, Dogecoin, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Peercoin, MonetaryUnit, UniversalCurrency
  * @website     https://gourl.io/bitcoin-payment-gateway-api.html#p8
@@ -11,9 +11,9 @@
  */ 
     
 
-	/********************** NOTE - 2018-2023 YEARS *************************************************************************/ 
+	/********************** NOTE - 2018-2024 YEARS *************************************************************************/ 
 	/*****                                                                                                             *****/ 
-	/*****     This is NEW 2018-2023 latest Bitcoin Payment Box Example  (mobile friendly JSON payment box)            *****/ 
+	/*****     This is NEW 2018-2024 latest Bitcoin Payment Box Example  (mobile friendly JSON payment box)            *****/ 
 	/*****                                                                                                             *****/ 
 	/*****     You can generate php payment box code online - https://gourl.io/lib/examples/example_customize_box.php  *****/
 	/*****         White Label Product - https://gourl.io/lib/test/example_customize_box.php?method=curl&logo=custom   *****/
@@ -91,11 +91,7 @@
 					  "litecoin"   => array("public_key"  => "25657AAOwwzoLitecoin77LTCPUB4PVkUmYCa2dR770wNNstdk", 
 					  					    "private_key" => "25657AAOwwzoLitecoin77LTCPRV7hmp8s3ew6pwgOMgxMq81F"),
 					  "dogecoin"   => array("public_key"  => "25678AACxnGODogecoin77DOGEPUBZEaJlR9W48LUYagmT9LU8",
-					  					    "private_key" => "25678AACxnGODogecoin77DOGEPRVFvl6IDdisuWHVJLo5m4eq"),
-					  "dash"       => array("public_key"  => "25658AAo79c3Dash77DASHPUBqwIefT1j9fqqMwUtMI0huVL0J", 
-					  					    "private_key" => "25658AAo79c3Dash77DASHPRVG7w3jg0Tc5Pfi34U8o5JEiTss"),
-					  "speedcoin"  => array("public_key"  => "20116AA36hi8Speedcoin77SPDPUBjTMX31yIra1IBRssY7yFy", 
-					  					    "private_key" => "20116AA36hi8Speedcoin77SPDPRVNOwjzYNqVn4Sn5XOwMI2c")); // Demo keys!
+					  					    "private_key" => "25678AACxnGODogecoin77DOGEPRVFvl6IDdisuWHVJLo5m4eq")); // Demo keys!
 
 	//  IMPORTANT: Add in file /lib/cryptobox.config.php your database settings and your gourl.io coin private keys (need for Instant Payment Notifications) -
 	/* if you use demo keys above, please add to /lib/cryptobox.config.php - 
@@ -196,7 +192,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" crossorigin="anonymous"></script>
-    <script src="<?php echo CRYPTOBOX_JS_FILES_PATH; ?>support.min.js" crossorigin="anonymous"></script> 
+    <script src="<?php echo CRYPTOBOX_JS_FILES_PATH; ?>support.min.js?1" crossorigin="anonymous"></script> 
 
     <!-- CSS for Payment Box -->
     <style>

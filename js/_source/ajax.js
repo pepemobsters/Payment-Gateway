@@ -1,10 +1,10 @@
 	/**
 	* @package     GoUrl Bitcoin/Altcoin Payment Box - Receive JSON payment data through Ajax from gourl.io
-	* @copyright   2014-2023 Delta Consultants
+	* @copyright   2014-2024 Delta Consultants
 	* @category    Javascript
 	* @website     https://gourl.io
 	* @api         https://gourl.io/api.html
-	* @version     2.2.3
+	* @version     2.2.4
 	*/
 	
 	/**
